@@ -66,7 +66,7 @@ class UsersController < ApplicationController
         score = product.internal_score
         bookmarks.each do |bookmark|
           if bookmark.product_id == product.id
-            score += 2 #bookmarked products should be on top so adding extra
+            score += 2 #bookmarked products should be on top.
           end
         end
         feedbacks.each do |feedback|

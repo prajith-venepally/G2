@@ -28,7 +28,7 @@ class FeedbacksController < ApplicationController
 
   def update_product_score
     review_count = @product.review_count
-    @product.internal_score = ((@product.internal_score)*review_count + @feedback.rating)/review_count+1 #update product score
+    @product.internal_score = ((@product.internal_score)*review_count + @feedback.rating)/(review_count+1) #update product score(average)
     @product.review_count = review_count+1
     @product.save!
   end

@@ -1,9 +1,10 @@
+Feedback.destroy_all
+Search.destroy_all
+Bookmark.destroy_all
 Category.destroy_all
 SubCategory.destroy_all
 Product.destroy_all
 User.destroy_all
-Feedback.destroy_all
-Search.destroy_all
 
 
 development = Category.create(name: "development")
