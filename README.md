@@ -45,4 +45,4 @@ Things considered to generate feed.
 * Searched products should be on top.
 * All products in searched sub category should be on top.
 
-check ``` users_controller#get_feed ``` for more information.
+check ``` users_controller#get_feed ``` and ```feedbacks_controller#update_product_score``` for more information.
