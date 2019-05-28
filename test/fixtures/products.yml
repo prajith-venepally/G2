@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  internal_score: 9.99
+  sub_category: one
+
+two:
+  name: MyString
+  internal_score: 9.99
+  sub_category: two

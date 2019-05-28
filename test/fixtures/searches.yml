@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  search_text: MyString
+  searchable: one
+  searchable_type: Searchable
+
+two:
+  search_text: MyString
+  searchable: two
+  searchable_type: Searchable
